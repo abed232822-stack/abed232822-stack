@@ -3,7 +3,6 @@
 I'm a **Mobile & Backend Developer** from Latakia, Syria. I build **Flutter** apps for mobile and desktop, and **Laravel** web apps and REST APIs. I've shipped a ride-hailing app for a real client and built a football league app on a real league's API.
 
 🌐 **[Explore my live portfolio →](https://abd-alghafoor.netlify.app/)** *(English & Arabic)*
-
 ---
 
 ## ⚡ Quick Highlights
@@ -35,6 +34,12 @@ I'm a **Mobile & Backend Developer** from Latakia, Syria. I build **Flutter** ap
 * Customers pick pickup/drop-off on a map, see a price per vehicle type, follow the driver live and pay in cash. Drivers go online, take ride offers in real time, run the trip and track earnings in a monthly wallet.
 * Built against the client's REST API and **Socket.IO** events. Cuts paid Google Routes requests by matching GPS fixes to the route already fetched, and keeps users signed in when offline (signs out only on an explicit 401).
 * **Tech Stack:** Flutter, Dart, Cubit, Dio, Socket.IO, Google Maps, Firebase Cloud Messaging, GetIt.
+
+### 🕌 Jama'ah — *Prayer times & iqamah countdown app*
+* Shows the day's prayer times, counts down to the adhan and then the iqamah, and tells you when to **leave for the mosque** based on your walking time. Arabic first (RTL), with English and dark/light themes. No account and no backend of its own.
+* Prayer times come from the AlAdhan API and are cached monthly on the device. Local notifications are re-planned whenever the place, iqamah offsets or permissions change. The prayer-timing rules are plain Dart classes, so they are unit-tested.
+* [Try it live](https://abed232822-stack.github.io/Jamaah/)
+* **Tech Stack:** Flutter, Dart, Cubit, Dio, GetIt, Local Notifications, Geolocator.
 
 ### 🏆 Star Liga — *Football league management app*
 * Arabic RTL app for running local tournaments: fixtures and match timelines, group and knockout standings, top scorers and card stats, and a club registration flow with squad-rule validation.
@@ -72,3 +77,5 @@ I'm a **Mobile & Backend Developer** from Latakia, Syria. I build **Flutter** ap
 * **Location:** Latakia, Syria
 
 ---
+
+⚡ *“From competitive programming logic to polished, real-world apps.”*
